@@ -1,0 +1,10 @@
+{
+	"name": "Sakura",
+	"version": "0.1",
+	"description": "Sakura is a Google Chrome Extension for Huaban.com",
+	"icons":{
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	},
+}
