@@ -11,5 +11,16 @@
 		"default_icon": "img/icon19.png",
 		"default_title": "Sakura",
 		"default_popup": "popup.html"
-	}
+	},
+	"plugins":[
+		{
+      "path": "plugin/screen_capture.dll"
+   }, {
+      "path": "plugin/screen_capture.so"
+   }, {
+      "path": "plugin/screen_capture_64.so"
+   }, {
+      "path": "plugin/screen_capture.plugin"
+   }
+	]
 }
