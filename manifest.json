@@ -1,7 +1,8 @@
 {
-	"name": "Sakura",
+	"name": "__MSG_extName__",
 	"version": "0.1",
-	"description": "Sakura is a Google Chrome Extension for Huaban.com",
+	"default_locale":"en",
+	"description": "__MSG_extDescription__",
 	"icons":{
 		"16": "img/icon16.png",
 		"48": "img/icon48.png",

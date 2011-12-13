@@ -1,0 +1,9 @@
+{
+	"extName": {
+		"message": "Sakura",
+		"description": "Extension name."
+	},
+	"extDescription": {
+		"message": "Sakura is a Google Chrome Extension for Huaban.com"
+	}
+}
