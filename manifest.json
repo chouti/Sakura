@@ -15,6 +15,7 @@
 	},
 	"background": "background.html",
 	"options_page": "option.html",
+	"permissions": [ "tabs", "http://*/*", "https://*/*", "notifications" ],
 	"plugins":[
 		{
       "path": "plugin/screen_capture.dll"
