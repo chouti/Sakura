@@ -13,6 +13,7 @@
 		"default_title": "__MSG_popTitle__",
 		"default_popup": "popup.html"
 	},
+	"background": "background.html",
 	"plugins":[
 		{
       "path": "plugin/screen_capture.dll"
