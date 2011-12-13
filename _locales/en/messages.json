@@ -5,5 +5,8 @@
 	},
 	"extDescription": {
 		"message": "Sakura is a Google Chrome Extension for Huaban.com"
+	},
+	"popTitle": {
+		"message": "Sakura"
 	}
 }
