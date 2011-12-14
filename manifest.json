@@ -13,9 +13,19 @@
 		"default_title": "__MSG_popTitle__",
 		"default_popup": "popup.html"
 	},
-	"background": "background.html",
+	"background_page": "background.html",
 	"options_page": "option.html",
 	"permissions": [ "tabs", "http://*/*", "https://*/*", "notifications" ],
+	"content_scripts": [ {
+      "css": [ "css/sakura.css" ],
+      "js": [ "js/page.js", "js/shortcut.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/isLoad.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+      "run_at": "document_start"
+   } ],
 	"plugins":[
 		{
       "path": "plugin/screen_capture.dll"
